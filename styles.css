@@ -102,8 +102,6 @@ padding: 8px 12px;
     -webkit-text-fill-color: transparent;
 }
 .banner-content p{
-
-
 color: #534C64;
 font-family: Work Sans;
 font-size: 15px;
@@ -111,6 +109,7 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-transform: lowercase;
+margin-bottom: 4px;
 
 }
 .banner-image img{
@@ -153,6 +152,17 @@ text-transform: lowercase;
 .gammer-content{
 text-align: right;
 }
+.gammer-content-para{
+  line-height:1.8 ;
+}
+.unleash{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
 .gammer-content h2{
     
 text-align: right;
@@ -186,6 +196,32 @@ margin-bottom: 15px;
     align-content: center;
     align-items: center;
 }
+.funny-videos{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+}
+.online-section-title{
+color: #0B0223;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 700;
+margin-bottom: 7px;
+}
+.online-section-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
 .card-box{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -197,12 +233,22 @@ margin-bottom: 15px;
 }
 .card p{
     margin-top: 7px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .card img {
     border-radius: 5px;
     width: 100%;
     height: 250px;
+    
+}
+.card img:hover{
+  
 }
 .online-game-section{
     padding: 0px 130px;
@@ -224,9 +270,31 @@ margin-bottom: 15px;
     text-align: end;
     
 }
+.play-instantly-content p{
+margin-top: 15px;
+line-height: 25px;
+}
+.play-content-title{
+    font-size: 38px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.no-download{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
 .play-instantly-image img{
     width:350px;
-    height: 400px;
+    height: 350px;
 }
 
 .instantly-relative-image img{
@@ -234,14 +302,20 @@ margin-bottom: 15px;
     margin-bottom: 50px;
    
 }
-.instantly-relative-image{
-align-items: center;
-align-content: center;
-text-align: center;
- margin-top: -170px;
- padding-right: -300px;
-}
 
+.play-instantly-image .instantly-relative-image img{
+    height: 45%;
+    width: 45%;
+   position: relative;
+   align-items: left;
+   align-content: start;
+   text-align: start;
+   justify-content: left;
+   justify-items: start;
+   margin-top: -140px;
+   margin-left: -80px;
+   
+}
 
 /* career section star */
 .career-container{
@@ -250,7 +324,7 @@ text-align: center;
     align-content: center;
     text-align: center;
     justify-content: space-between;
-    height: 500;
+    height: 600;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     padding: 0px 130px;
     
@@ -266,21 +340,56 @@ text-align: center;
 }
 .career-section-left{
     color: white;
+    text-align: left;
+}
+.career-section-left h1{
+color: #FFF;
+font-family: Work Sans;
+font-size: 38px;
+line-height: 60px;
+}
+
+.career-section-left .description{
+    color: #FFF;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+    margin-bottom: 20px;
 }
 .right-list{
     text-align: right;
     height: 100%;
-    width: 100%;
+    width: 70%;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
+
+
+.left-list{
+    width: 100%;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
 .career-list{
     display: flex;
     align-items: center;
     align-content: center;
     text-align: center;
     justify-content: space-between;
+    
 }
 .career-list ul li{
-list-style: none;
+ list-style: none;
+ margin-bottom: 20px;
 }
 .career-btn{
     padding: 12px 25px;
@@ -288,21 +397,37 @@ list-style: none;
     background-color:white;
     border: none;
     border-radius: 30px;
+    text-transform: uppercase;
 }
 
 /* avdenture section start */
 .adventure-card{
-    border: 1px solid red;
-    border-radius: 5px;
+    border-radius: 50px;
     width: 200px;
     height: 50px;
     display: flex;
     gap: 5px;
     align-items: center;
+    background-color: white;
+}
+.adventure-card p{
 
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+}
+.adventure-card:hover {
+    border:1.5px solid #FF42A5;
+    border-radius: 50px;
+    
+}
+.adventure-card p:hover{
+    color: #FF42A5;
 }
 .adventure-card img{
     width: 40px;
+   
    
 }
 .adventure-section-container{
@@ -314,9 +439,9 @@ list-style: none;
     justify-content: space-around;
     text-align: center;
     justify-items: center;
-    height: 400px;
-    margin: 20px 130px;
-
+    height: 280px;
+    padding: 20px 130px;
+    background-color:rgb(252, 249, 249);
 }
 
 /* footer section */
@@ -370,23 +495,38 @@ list-style: none;
     gap: 20px;
     padding-top: 80px;
     padding-bottom: 30px;
+    font-size: 30px;
 
 }
 .footer-menus{
     padding-bottom:30px ;
     gap: 30px;
 }
+.footer-menus .footer-menu{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
 .footer-menus-last-content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-  padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500px;
 }
 .footer-copyright{
-    padding-top: 20px;
+    padding-top: 25px;
     text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+ 
 }
 
 
