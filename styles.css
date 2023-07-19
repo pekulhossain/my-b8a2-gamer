@@ -530,5 +530,58 @@ line-height: 60px;
 }
 
 
+/* media query for responsive layout */
+@media screen and (min-width:425px) and (max-width:768px) {
+    .nav{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    .nav .logo .menu{
+        display:block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .banner-section, .online-game-section-container, .we-are-gammer{
+        display: grid;
+        grid-template-columns:repeat(1fr);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 120px;
+       
+    }
+    .card-box{
+        display: block;
+        
+    }
+     
+    .play-instantly-section-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .career-container, .adventure-section-container{
+        display: block;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        justify-items: center;
+    }
+    .adventure-card{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+    }
+
+}
+
+
 
 
