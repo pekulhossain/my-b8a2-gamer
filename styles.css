@@ -77,7 +77,20 @@ padding: 8px 12px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     
-
+}
+.banner-content p img{
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.banner-content p{
+    display: flex;
+    gap: 3px;
 }
 .banner-content h3{
     color: #0B0223;
@@ -267,9 +280,9 @@ margin-bottom: 7px;
 }
 .play-instantly-content{
     width: 50%;
-    text-align: end;
-    
+    text-align: end;   
 }
+
 .play-instantly-content p{
 margin-top: 15px;
 line-height: 25px;
@@ -403,12 +416,13 @@ line-height: 60px;
 /* avdenture section start */
 .adventure-card{
     border-radius: 50px;
-    width: 200px;
+    width:190px;
     height: 50px;
     display: flex;
     gap: 5px;
     align-items: center;
     background-color: white;
+    align-content: center;
 }
 .adventure-card p{
 
