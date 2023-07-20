@@ -481,14 +481,14 @@ line-height: 60px;
 .footer-image img{
    
     width: 100%px;
-    height: 40px;
+    height: 30px;
     
 }
 .footer-menus-image{
     width: 300px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
+    gap: 10px;
     text-align: center;
     align-items: center;
     justify-content: center;
